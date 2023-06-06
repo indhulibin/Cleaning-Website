@@ -1,0 +1,14 @@
+span.first
+{
+    font-size: 30px;
+    color: rgb(27, 185, 185);
+    font-style: normal;
+    font-weight: 800;
+}
+span.second
+{
+    font-size: 30px;
+    color: rgb(53, 51, 51);
+    font-style: normal;
+    font-weight: 800;
+}
