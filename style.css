@@ -12,3 +12,12 @@ span.second
     font-style: normal;
     font-weight: 800;
 }
+.position-absolute h1{
+    color:white;
+    font-size: 60px;
+}
+.position-absolute p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
