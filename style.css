@@ -48,7 +48,8 @@ span.second
  {
     padding-top: 20px;
     font-size: 20px;
-
+    padding-left: auto;
+    padding-right: auto;
  }
 
  .bi.bi-calendar-date
@@ -72,12 +73,9 @@ span.second
  .work-details
  {
    margin-top: 50px;
+   margin-bottom: 80px;
  }
- .work-details div.row
- {
-   margin-left: 60px;
-   margin-right: 60px;
- }
+ 
 
  .work-details div.row p
  {
@@ -86,84 +84,76 @@ span.second
    text-align: center;
  }  
 
- i.bi.bi-calendar-date
- {
-   padding-left: 100px;
- }
- i.bi.bi-lock
- {
-   padding-left: 100px;
- }
- i.bi.bi-house
- {
-   padding-left: 100px;
- }
  h4.head-1{
    word-spacing: 2px;
    font-style: normal;
    font-weight: 500;
    color: dimgray;
+   padding-top: 10px;
  }
- @media (min-width: 992px) and (max-width: 1199.98px) {
-   i.bi.bi-calendar-date{
-      padding-left: 70px;
-   }
+ .col-lg-4.col-md-4.col-sm-12.col-xs-12 i.bi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-   i.bi.bi-lock{
-      padding-left: 70px;
-   }
+div.words{
+   height: auto;
+   background-color: rgb(235, 233, 233);
+   padding-bottom: 100px;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-   i.bi.bi-house{
-      padding-left: 70px;
-   }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px){
- .work-details div.row
+.words span.p1
  {
-   margin-left: 30px;
-   margin-right: 30px;
+    font-size: 40px;
+    color: rgb(58, 56, 56);
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
  }
-
- i.bi.bi-calendar-date
+ .words span.p2
  {
-   padding-left: 40px;
+    font-size: 40px;
+    color: rgb(27, 185, 185);
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
  }
-
- i.bi.bi-lock
+ p.words-para{
+   text-align: center;
+   padding-top: 20px;
+   font-size: 20px;
+   padding-left: auto;
+   padding-right: auto;
+ }
+ div.words-test
  {
-   padding-left: 30px;
+   padding-top: 60px;
  }
-
- i.bi.bi-house
+ div.card
  {
-   padding-left: 30px;
+   height: 500pxl;
+   border-width: 2px;
+   border-style: solid;
+   border-color:rgb(33, 222, 222);
  }
 
-}
+ .col-lg-4.col-md-4.col-sm-12.col-xs-12 i.card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-   .work p {
-      padding-left: 5px;
-      padding-right: 5px;
-      word-wrap: break-word;
-    }
-    i.bi.bi-calendar-date
-   {
-   padding-left: 130px;
-   }
-   i.bi.bi-lock
-   {
-     padding-left: 130px;
-   }
-  
-   i.bi.bi-house
-   {
-     padding-left: 130px;
-   }
-}
-
+ .bi.bi-quote
+ {
+    font-size: 3rem;
+    color: rgb(65, 215, 205);
+ }
+ .card-body h6 
+ {
+   text-align: right;
+ }
+ 
