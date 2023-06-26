@@ -1,3 +1,6 @@
+html {
+   scroll-behavior: smooth;
+ }
 span.first
 {
     font-size: 30px;
@@ -100,6 +103,12 @@ span.second
 div.container-fluid.words{
    height: auto;
    background-color: rgb(235, 233, 233);
+   padding-bottom: 100px;
+}
+
+div.container-fluid.footer{
+   height: auto;
+   background-color: rgb(27, 185, 185);
    padding-bottom: 100px;
 }
 
@@ -257,6 +266,16 @@ span.p3
    background-color: rgb(65, 215, 205);
    font-size: 20px;
  }
+ .btn-form2
+ {
+   width: 200px;
+   height: 40px;
+   text-align: center;
+   color: white;
+   background-color: rgb(65, 215, 205);
+   font-size: 20px;
+   margin-right: 100px;
+ }
  .btn-group3
  {
    height: 60px;
@@ -293,3 +312,85 @@ span.p3
   }
 }
 
+.footp1
+{
+   font-size: 14px;
+   color:white;
+   padding-top: 30px;
+   padding-left: 50px;
+   font-weight: 800;
+}
+
+.footp2
+{
+   font-size: 15px;
+   font-weight: 600;
+   color:white;
+   padding-top: 3px;
+   padding-left: 50px;
+}
+
+.footp3
+{
+   font-size: 15px;
+   color:white;
+   padding-left: 50px;
+}
+
+.col-lg-4.col-md-4.col-sm-12.col-xs-12.social-icon {
+   display: flex;
+   justify-content: left;
+   align-items: left;
+ }
+
+ .bi.bi-facebook
+ {
+    font-size: 2rem;
+    color: white;
+ }
+ 
+ .footer-icon
+ {
+   padding-top: 50px;
+   padding-left: 20px;
+   align-items: left;
+ }
+ .footer-para
+ {
+   padding-left: 30px;
+   padding-top: 20px;
+   font-size: 17px;
+   color: white;
+ }
+ .footer-para1
+ {
+   font-size: 17px;
+   color: white;
+ }
+ .bi.bi-twitter {
+   font-size: 2rem;
+    color: white;
+ }
+ .bi.bi-linkedin {
+   font-size: 2rem;
+    color: white;
+ }
+ .bi.bi-whatsapp {
+   font-size: 2rem;
+    color: white;
+ }
+
+ ul li a{
+   color: #fff;
+   line-height: 2;
+}
+
+ul {
+   display: block;
+   padding-left: 100px;
+   list-style: none;
+}
+.qlink
+{
+   padding-left: 25px;
+}
